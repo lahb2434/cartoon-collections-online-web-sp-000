@@ -10,8 +10,8 @@ def summon_captain_planet(veggie)
   end
 end
 
-def long_planeteer_calls(space)
-  
+def long_planeteer_calls(calls)
+  calls.each do |x| x.include? 
 end
 
 def find_the_cheese# code an argument here
