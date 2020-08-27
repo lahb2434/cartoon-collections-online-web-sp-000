@@ -16,6 +16,6 @@ end
 
 
 def find_the_cheese(caseiculture)
-  # the array below is here to help
+  caseiculture.find do |x| x
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
