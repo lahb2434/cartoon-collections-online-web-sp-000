@@ -1,5 +1,5 @@
-def roll_call_dwarves(heirarchy)
-  # Your code here
+def roll_call_dwarves(hierarchy)
+  
 end
 
 def summon_captain_planet# code an argument here
