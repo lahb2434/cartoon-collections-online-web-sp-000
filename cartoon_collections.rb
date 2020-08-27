@@ -11,7 +11,7 @@ def summon_captain_planet(veggie)
 end
 
 def long_planeteer_calls(calls)
-  calls.find {|panda| panda.length == 5}
+  calls.find {|panda| panda.size == 5}
   end
 end
 
