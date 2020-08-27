@@ -6,7 +6,10 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(veggies)
-  veggies.map{|x| x }
+  new_veggie = veggies.map{|x| x.capitalize'!' }
+end
+veggie
+new_veggie
 end
 
 def long_planeteer_calls# code an argument here
