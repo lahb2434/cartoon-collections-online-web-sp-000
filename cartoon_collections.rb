@@ -11,7 +11,7 @@ def summon_captain_planet(veggie)
 end
 
 def long_planeteer_calls(calls)
-  calls.include? do |x| x.length >= 5
+  calls.find do |x| x.length >= 5
   end
 end
 
