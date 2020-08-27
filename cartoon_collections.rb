@@ -7,7 +7,6 @@ end
 
 def summon_captain_planet(veggies)
   new_veggie = veggies.map{|x| x.capitalize'!' }
-  veggie
   new_veggie
 end
 
