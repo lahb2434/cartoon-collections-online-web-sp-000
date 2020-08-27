@@ -16,6 +16,6 @@ end
 
 
 def find_the_cheese(caseiculture)
-  caseiculture.find do |x| x ==  "gouda" || "camembert" || "cheddar" 
+  caseiculture.find do |x| x ==  "gouda" || x == "camembert" || x =="cheddar" 
   end
 end
