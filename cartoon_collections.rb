@@ -5,7 +5,7 @@ def roll_call_dwarves(dwarves)
   end
 end
 
-def summon_captain_planet(veggies)
+def summon_captain_planet(veggie)
   veggie.each do |x| puts "#{x.capitalize}!"
   end
 end
