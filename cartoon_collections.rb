@@ -1,5 +1,7 @@
-def roll_call_dwarves(hierarchy)
-  
+def roll_call_dwarves(dwarves)
+  dwarves.each_with_index do |name, status| 
+    status += 1
+    puts "#{status}. #{name}"
 end
 
 def summon_captain_planet# code an argument here
